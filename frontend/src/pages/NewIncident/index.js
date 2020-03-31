@@ -66,7 +66,7 @@ export default function NewIncident() {
             onChange={e => setDescription(e.target.value)}
           />
           <input 
-            placeholder="Valor em reais" 
+            placeholder="Estipule uma meta em reais." 
             value={value}
             onChange={e => setValue(e.target.value)}
           />
